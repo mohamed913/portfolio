@@ -1,60 +1,94 @@
 /* Start Global Rules */
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-  :root {
-    /* --main-color: #108a00; */
-    --main-color: #14a800;
-    --main-text-color: #ffffff;
-    --secondry-color: #13544e;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  /* --main-color: #108a00; */
+  --main-color: #ffffff;
+  --main-text-color: #2d2f31;
+  --secondry-color: #f2f4f7;
+  --primary-color: #dae3e7;
+  --text-color-green: #14a800;
+  --text-color-light: rgba(0, 0, 0, 0.1);
 
 
-    --main-color-alt: #1787e0;
-    --main-transition: 0.3s;
-    --main-padding-top: 100px;
-    --main-padding-bottom: 100px;
-    --section-background: #ececec;
-  }
-  html {
-    scroll-behavior: smooth;
-  }
-  body {
-    font-family: "Cairo", sans-serif;
-  }
-  a {
-    text-decoration: none;
-  }
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  .container {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 60px;
-  }
+  /* --main-color-alt: #1787e0; */
+  --main-color-alt: #0866ff;
+  --main-transition: 0.3s;
+  --main-padding-top: 100px;
+  --main-padding-bottom: 100px;
+  --section-background: #ececec;
+}
 
-  
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Veronika Burian", "José Scaglione";
+  background-color: var(--primary-color);
+
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+
+
+
+.myheading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+  font-weight: bolder;
+  padding: 0px;
+  border: 1px solid var(--text-color-light);
+  width: 260px;
+  margin: 30px auto;
+  background-color: var(--main-color);
+  border-radius: 3px;
+
+  ;
+}
+
+
 /* Styles for mobile and smaller */
-@media (max-width: 992px) {
+
+@media (max-width: 768px) {
   .container {
- 
-    margin-top: 107px;
+
+    margin-top: 50px;
   }
 }
+
 /* End Global Rules */
-nav{
+nav {
   position: fixed;
-  top: 0; /* Anchors it to the top of the screen */
+  top: 0;
+  /* Anchors it to the top of the screen */
   left: 0;
-  width: 100%; /* Stretches it across the viewport width */
+  width: 100%;
+  /* Stretches it across the viewport width */
   height: 70px;
-  z-index: 1000; /* Ensures it's above other content */
+  z-index: 1000;
+  /* Ensures it's above other content */
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -64,157 +98,198 @@ nav{
   padding: 15px;
   color: var(--main-text-color);
   border-radius: 3px;
-  font-size: 20px;
-  font-family:"Neue Montreal", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  
- 
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Veronika Burian", "José Scaglione";
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+  /* border-bottom: 1px solid #777; */
+
+
 
 }
-.brand{
+
+.brand {
   font-weight: bold;
   cursor: pointer;
+  font-size: 30px;
 }
-.brand:hover{
+
+@media (max-width: 768px) {
+  .brand {
+
+    font-size: 25px;
+  }
+}
+
+
+.brand:hover {
   font-weight: bolder;
 }
 
-#menubar{
+
+#menubar {
   display: none;
 }
-.links ul{
+
+.links ul {
   display: flex;
 
- 
+
 }
-.links ul li a{
+
+.links ul li a {
   color: var(--main-text-color);
   padding: 22px;
   cursor: pointer;
-  
- 
+
+
 }
-.links ul li a:hover{
+
+.links ul li a:hover {
   /* background-color: var(--main-text-color);
   color: var(--main-color);
   border-radius: 5px;
   font-size: 21px; */
   border-bottom: 2px solid yellow;
-  
+
 }
 
 
 /* Styles for mobile and smaller */
 @media (max-width: 992px) {
-  .links{
+  .links {
     display: none;
-   }
- #menubar{
-  display: block;
-  cursor: pointer;
-  font-weight: bold;
- }
- 
-nav{
-  position: fixed;
-  top: 0; /* Anchors it to the top of the screen */
-  left: 0;
-  width: 100%; /* Stretches it across the viewport width */
-  height: 70px;
-  z-index: 1000; /* Ensures it's above other content */
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  align-items: center;
-  justify-content: space-between;
-}
- .mylinks{
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  right:0px;
-  top:70px;
-  width: 100%;
+  }
 
-    }
-    .mylinksul{
-      display: flex;
-      flex-direction: column;
-      background-color: rgba(20, 168, 0, 0.8);
-      
+  #menubar {
+    display: block;
+    cursor: pointer;
+    font-weight: bold;
+  }
 
-    }
-    .links ul li {
-      width: 100%;
-      border-top: 1px solid rgba(0, 0, 0, 0.1);
-      cursor: pointer;
-    }
-    .links ul li a{
-      display:inline-block;
-      width: 100%;
-    }
-    .links ul li a:hover{
-      width: 70%;
-     border-bottom:  2px solid yellow;
-     
-    }
+  nav {
+    position: fixed;
+    top: 0;
+    /* Anchors it to the top of the screen */
+    left: 0;
+    width: 100%;
+    /* Stretches it across the viewport width */
+    height: 70px;
+    z-index: 1000;
+    /* Ensures it's above other content */
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .mylinks {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0px;
+    top: 70px;
+    width: 100%;
+
+  }
+
+  .mylinksul {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-color);
+
+
+  }
+
+  .links ul li {
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+
+  .links ul li a {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .links ul li a:hover {
+    width: 70%;
+    border-bottom: 2px solid yellow;
+
+  }
 }
 
 
 
 /* start carasaul */
 
-.carasaul{
+.carasaul {
   display: flex;
   flex-direction: row;
   height: 550px;
-  
+  margin-top: 70px;
+
 }
 
-.myimg_container{
+.myimg_container {
   text-align: center;
   align-items: center;
   width: 100%;
 }
-.myimg{
+
+.myimg {
   height: 100%;
   width: 80%;
   padding-top: 20px;
   border-radius: 40px;
-  
+
 }
-.about{
+
+.about {
   text-align: left;
   align-items: center;
-  padding-top: 150px;
+  padding: 100px 0 0 20px;
   width: 100%;
-  color: var(--secondry-color);
-}
-.btndownload_cv{
+  color: var(--main-color-alt);
   background-color: var(--main-color);
-  color: var(--main-text-color);
+  height: 80%;
+  margin: auto 0;
+  margin-right: 50px;
+  border-radius: 40px;
+
+}
+
+.btndownload_cv {
+  background-color: var(--main-color-alt);
+  color: var(--main-color);
   padding: 10px;
   border-radius: 5px;
   cursor: pointer;
   width: 135px;
 
-  
+
 }
-.btndownload_cv:hover{
-  background-color: var(--main-text-color);
-  color: var(--main-color);
-}
-.btncontact_me{
-  background-color: #000000;
+
+.btndownload_cv:hover {
+  background-color: var(--main-color);
   color: var(--main-text-color);
+}
+
+.btncontact_me {
+  background-color: #000000;
+  color: var(--main-color);
   padding: 10px;
   border-radius: 5px;
   cursor: pointer;
   width: 135px;
-  
+
 }
-.btncontact_me:hover{
-  background-color: var(--main-text-color);
-  color: var(--main-color);
+
+.btncontact_me:hover {
+  background-color: var(--main-color);
+  color: var(--main-text-color);
 }
 
 /* @media (min-width: 789px) {
@@ -225,28 +300,37 @@ nav{
 } */
 
 @media (max-width: 992px) {
-  .carasaul{
+  .carasaul {
     display: flex;
     flex-direction: column;
   }
-  .myimg_container{
+
+  .myimg_container {
     display: none;
   }
-  .about{
+
+  .about {
     text-align: center;
     align-items: center;
     padding-top: 50px;
     width: 100%;
     height: 100%;
-    
+    color: var(--main-color-alt);
+
     border-radius: 10px;
     /* background:url("../imgs/mohamed_profile.jpg"), center center no-repeat; */
     background-image: url('../imgs/mohamed_profile.jpg');
-    background-size: cover; /* Scale the image to cover the entire background */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-size: cover;
+    /* Scale the image to cover the entire background */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Prevent the image from repeating */
   }
-  h1,h2,h3{
+
+  h1,
+  h2,
+  h3 {
     color: var(--main-text-color);
   }
 
@@ -269,19 +353,161 @@ nav{
 } */
 
 @media (max-width: 768px) {
- 
-  .about{
+
+  .about {
     text-align: center;
     align-items: center;
     padding-top: 50px;
     width: 100%;
     margin-top: -25px;
   }
-  h1,h2,h3{
+
+  h1,
+  h2,
+  h3 {
     color: var(--main-text-color);
   }
 
 }
+
 /* end carasaul */
 
+.aboutme {
+  display: flex;
+  text-align: left;
+  align-items: center;
+}
 
+.info {
+  display: flex;
+  flex-direction: column;
+
+  width: 60%;
+  text-align: center;
+  padding-left: 30px;
+  justify-content: center;
+  background-color: var(--main-color);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+/* .myinfo{
+  display: inline;
+} */
+.info_section {
+  padding-bottom: 20px;
+
+
+  text-align: justify;
+
+}
+
+.info_head {
+  padding-right: 20px;
+  font-weight: bold;
+  color: var(--main-color-alt);
+  font-size: 20px;
+
+
+}
+
+.info_data {
+  text-align: left;
+  text-justify: auto;
+  font-weight: bold;
+  color: var(--text-color-green);
+  font-size: 20px;
+
+}
+
+.mylogo {
+
+  width: 40%;
+
+}
+
+.image_logo {
+  height: 100%;
+  width: 90%;
+
+  border-radius: 40px;
+  margin-left: 10px;
+}
+
+
+
+@media (max-width: 992px) {
+
+  .mylogo {
+    display: none;
+  }
+
+  .aboutme {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .info {
+    width: 70%;
+    margin: 0 auto;
+    overflow-x: scroll;
+  }
+
+  /* .info_section{
+  max-width: 90%;
+  overflow: scroll;
+} */
+
+
+}
+
+@media (max-width: 768px) {
+  .info {
+    width: 100%;
+    margin: 0 auto;
+    overflow-x: scroll;
+  }
+
+  .info_head {
+    font-size: 16px;
+
+  }
+
+  .info_data {
+    font-size: 16px;
+  }
+}
+
+
+
+
+
+/* end about me */
+
+/* test */
+.box {
+  background-color: #1787e0;
+  color: white;
+  border: 1px solid red;
+  padding: 30px;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+
+}
+
+.mytest {
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.box1 {
+  grid-column: 1/3;
+}
