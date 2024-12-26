@@ -1,0 +1,287 @@
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  :root {
+    /* --main-color: #108a00; */
+    --main-color: #14a800;
+    --main-text-color: #ffffff;
+    --secondry-color: #13544e;
+
+
+    --main-color-alt: #1787e0;
+    --main-transition: 0.3s;
+    --main-padding-top: 100px;
+    --main-padding-bottom: 100px;
+    --section-background: #ececec;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Cairo", sans-serif;
+  }
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+  }
+
+  
+/* Styles for mobile and smaller */
+@media (max-width: 992px) {
+  .container {
+ 
+    margin-top: 107px;
+  }
+}
+/* End Global Rules */
+nav{
+  position: fixed;
+  top: 0; /* Anchors it to the top of the screen */
+  left: 0;
+  width: 100%; /* Stretches it across the viewport width */
+  height: 70px;
+  z-index: 1000; /* Ensures it's above other content */
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--main-color);
+  padding: 15px;
+  color: var(--main-text-color);
+  border-radius: 3px;
+  font-size: 20px;
+  font-family:"Neue Montreal", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+ 
+
+}
+.brand{
+  font-weight: bold;
+  cursor: pointer;
+}
+.brand:hover{
+  font-weight: bolder;
+}
+
+#menubar{
+  display: none;
+}
+.links ul{
+  display: flex;
+
+ 
+}
+.links ul li a{
+  color: var(--main-text-color);
+  padding: 22px;
+  cursor: pointer;
+  
+ 
+}
+.links ul li a:hover{
+  /* background-color: var(--main-text-color);
+  color: var(--main-color);
+  border-radius: 5px;
+  font-size: 21px; */
+  border-bottom: 2px solid yellow;
+  
+}
+
+
+/* Styles for mobile and smaller */
+@media (max-width: 992px) {
+  .links{
+    display: none;
+   }
+ #menubar{
+  display: block;
+  cursor: pointer;
+  font-weight: bold;
+ }
+ 
+nav{
+  position: fixed;
+  top: 0; /* Anchors it to the top of the screen */
+  left: 0;
+  width: 100%; /* Stretches it across the viewport width */
+  height: 70px;
+  z-index: 1000; /* Ensures it's above other content */
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+ .mylinks{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right:0px;
+  top:70px;
+  width: 100%;
+
+    }
+    .mylinksul{
+      display: flex;
+      flex-direction: column;
+      background-color: rgba(20, 168, 0, 0.8);
+      
+
+    }
+    .links ul li {
+      width: 100%;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+    }
+    .links ul li a{
+      display:inline-block;
+      width: 100%;
+    }
+    .links ul li a:hover{
+      width: 70%;
+     border-bottom:  2px solid yellow;
+     
+    }
+}
+
+
+
+/* start carasaul */
+
+.carasaul{
+  display: flex;
+  flex-direction: row;
+  height: 550px;
+  
+}
+
+.myimg_container{
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+.myimg{
+  height: 100%;
+  width: 80%;
+  padding-top: 20px;
+  border-radius: 40px;
+  
+}
+.about{
+  text-align: left;
+  align-items: center;
+  padding-top: 150px;
+  width: 100%;
+  color: var(--secondry-color);
+}
+.btndownload_cv{
+  background-color: var(--main-color);
+  color: var(--main-text-color);
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 135px;
+
+  
+}
+.btndownload_cv:hover{
+  background-color: var(--main-text-color);
+  color: var(--main-color);
+}
+.btncontact_me{
+  background-color: #000000;
+  color: var(--main-text-color);
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 135px;
+  
+}
+.btncontact_me:hover{
+  background-color: var(--main-text-color);
+  color: var(--main-color);
+}
+
+/* @media (min-width: 789px) {
+  .carasaul{
+ 
+    margin-top: 50px;
+  }
+} */
+
+@media (max-width: 992px) {
+  .carasaul{
+    display: flex;
+    flex-direction: column;
+  }
+  .myimg_container{
+    display: none;
+  }
+  .about{
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+    width: 100%;
+    height: 100%;
+    
+    border-radius: 10px;
+    /* background:url("../imgs/mohamed_profile.jpg"), center center no-repeat; */
+    background-image: url('../imgs/mohamed_profile.jpg');
+    background-size: cover; /* Scale the image to cover the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+  }
+  h1,h2,h3{
+    color: var(--main-text-color);
+  }
+
+}
+
+/* @media (max-width: 1024px) and (min-width: 601px) {
+  .btn {
+      padding: 10px 18px;
+      font-size: 15px; 
+      text-wrap: nowrap;
+     
+
+  }
+  .btn-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 10px;
+  }
+} */
+
+@media (max-width: 768px) {
+ 
+  .about{
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+    width: 100%;
+    margin-top: -25px;
+  }
+  h1,h2,h3{
+    color: var(--main-text-color);
+  }
+
+}
+/* end carasaul */
+
+
