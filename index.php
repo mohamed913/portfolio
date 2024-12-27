@@ -5,15 +5,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Abo-Hozifa</title>
-  <!-- adding icon to the site -->
-  <!-- <link rel="icon" href="{{asset('/myassets/logo/site_icon-32x32.png')}}" type="image/png">
-     <link rel="icon" href="{{asset('/favicon.ico')}}" type="image/x-icon"> -->
+  <!-- adding icon to the site  -->
+ <link rel="icon" href="assets/imgs/portfolio.png" type="image/png">
+ <link rel="icon" href="assets/imgs/portfolio.png" type="image/x-icon"> 
 
-  <link rel="stylesheet" href="normalize/normalize.css" />
+  <link rel="stylesheet" href="assets/normalize/normalize.css" />
 
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" rel="stylesheet" />
 
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC+Guides&display=swap" rel="stylesheet">
@@ -32,11 +32,12 @@
 
     <div id="links" class="links">
       <ul id="linksul">
-        <li><a href="home">Home</a></li>
-        <li><a href="about">About</a></li>
-        <li><a href="projects">Projects</a></li>
-        <li><a href="testimonials">Testimonials</a></li>
-        <li><a href="atricles">Contact Me</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#atricles">Contact Me</a></li>
       </ul>
     </div>
   </nav>
@@ -46,7 +47,7 @@
   <div>
     <div class="carasaul">
       <div class="myimg_container">
-        <img class="myimg" src="imgs/mohamed_profile.jpg" alt="this is the picture of abo hozifa"
+        <img class="myimg" src="assets/imgs/mohamed_profile.jpg" alt="this is the picture of abo hozifa"
           title="this is the picture of abo hozifa" />
       </div>
       <div class="about">
@@ -83,15 +84,38 @@
         </div>
 
       </div>
-      <div class="mylogo"><img class="image_logo" src="imgs/portfolio.png" alt="this is a logo picture"></div>
+      <div class="mylogo"><img class="image_logo" src="assets/imgs/portfolio.png" alt="this is a logo picture"></div>
 
 
     </div>
   </div>
   <!-- end about -->
+   <!-- start services -->
+  <h1 class="myheading">Services</h1>
+   <div class="container">
+    <div class="services">
+      <div class="service">
+        <div class="service_icon"><i class="fas fa-code"></i></div>
+        <h2>Web Development</h2>
+        <p>Developing websites using the latest technologies and frameworks</p>
+      </div>
+      <div class="service">
+        <div class="service_icon"><i class="fas fa-database"></i></div>
+        <h2>Database Design</h2>
+        <p>Designing databases using the latest technologies and frameworks</p>
+      </div>
+      <div class="service">
+        <div class="service_icon"><i class="fas fa-server"></i></div>
+        <h2>Server Management</h2>
+        <p>Managing servers and deploying websites</p>
+      </div>
+    </div>
+   </div>
+      <!-- end services -->
 
 
-  <script src="js/script.js"></script>
+
+  <script src="assets/js/script.js"></script>
 </body>
 
 </html>
