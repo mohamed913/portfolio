@@ -48,7 +48,8 @@ ul {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 60px;
+  /* margin-top: 130px; */
+  /* margin-bottom: 130px; */
 }
 
 
@@ -61,12 +62,29 @@ ul {
   padding: 0px;
   border: 1px solid var(--text-color-light);
   width: 260px;
-  margin: 30px auto;
+  margin: 70px auto;
   background-color: var(--main-color);
   border-radius: 3px;
 
-  ;
+  
 }
+@media (max-width: 768px) {
+
+  .myheading {
+   margin-top: 200px;
+    margin-bottom: 200px;
+  }
+}
+@media (max-width: 768px) {
+
+
+  .myheading {
+    font-size: 40px;
+    width: 200px;
+    margin: 70px auto;
+  }
+}
+
 
 
 /* Styles for mobile and smaller */
@@ -571,4 +589,60 @@ text-align: center;
 }
 
 /* end services */
+
+/* start skills */
+.skills{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+ 
+  grid-column-gap:15px;
+  grid-row-gap:100px;
+  justify-items: center;
+  align-items: center;
+  
+
+}
+.skill{
+  height: 9px;
+  border-radius: 5px;
+  width: 85%;
+  background-color: var(--main-text-color);
+}
+
+.progress {
+  position: relative;
+  width:85%;
+  height: 100%;
+  background-color: var(--text-color-green);
+  /* color: var(--text-color-green); */
+
+}
+.progress-bar{
+  
+  
+  width: 85%;
+  border: 1px solid var(--text-color-light);
+}
+.progress h2{
+  position: absolute;
+  left: 0;
+  top: -60px;
+  color: var(--main-text-color);
+}
+.progress h3{
+  position: absolute;
+  right: 10px;
+  top: -60px;
+  color: var(--main-text-color);
+}
+
+@media (max-width: 992px) {
+
+  .skills{
+    grid-template-columns: 1fr;
+  }
+
+
+}
+/* end skills */
 

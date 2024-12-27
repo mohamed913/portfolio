@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Abo-Hozifa</title>
   <!-- adding icon to the site  -->
- <link rel="icon" href="assets/imgs/portfolio.png" type="image/png">
- <link rel="icon" href="assets/imgs/portfolio.png" type="image/x-icon"> 
+  <link rel="icon" href="assets/imgs/portfolio.png" type="image/png">
+  <link rel="icon" href="assets/imgs/portfolio.png" type="image/x-icon">
 
   <link rel="stylesheet" href="assets/normalize/normalize.css" />
 
@@ -90,9 +90,9 @@
     </div>
   </div>
   <!-- end about -->
-   <!-- start services -->
+  <!-- start services -->
   <h1 class="myheading">Services</h1>
-   <div class="container">
+  <div class="container">
     <div class="services">
       <div class="service">
         <div class="service_icon"><i class="fas fa-code"></i></div>
@@ -110,8 +110,96 @@
         <p>Managing servers and deploying websites</p>
       </div>
     </div>
-   </div>
-      <!-- end services -->
+  </div>
+  <!-- end services -->
+
+  <!-- start skills -->
+  <h1 class="myheading">Skills</h1>
+  <div class="skills">
+    <div class="skill">
+
+      <div class="progress">
+        <h2>HTML</h2>
+        <h3>85%</h3>
+        <div class="progress-bar"></div>
+      </div>
+    </div>
+    <div class="skill">
+
+      <div class="progress">
+        <h2>CSS</h2>
+        <h3>85%</h3>
+        <div class="progress-bar"></div>
+      </div>
+    </div>
+    <div class="skill">
+
+      <div class="progress">
+        <h2>JavaScript</h2>
+        <h3>85%</h3>
+        <div class="progress-bar"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="progress">
+        <h2>PHP</h2>
+        <h3>85%</h3>
+        <div class="progress-bar"></div>
+      </div>
+    </div>
+    
+    <div class="skill">
+      <div class="progress">
+        <h2>MySQL</h2>
+        <h3>85%</h3>
+        <div class="progress-bar"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <div class="progress">
+        <h2>LARAVEL</h2>
+        <h3>85%</h3>
+        <div class="progress-bar"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="progress">
+        <h2>LIVEWIRE</h2>
+        <h3>85%</h3>
+        <div class="progress-bar"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="progress">
+        <h2>AJAX</h2>
+        <h3>85%</h3>
+        <div class="progress-bar"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="progress">
+        <h2>JSON</h2>
+        <h3>85%</h3>
+        <div class="progress-bar"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="progress">
+        <h2>SERVER MANAGEMENT</h2>
+        <h3>85%</h3>
+        <div class="progress-bar"></div>
+      </div>
+    </div>
+
+ 
+
+  </div>
+  <!-- end skills -->
 
 
 
