@@ -115,91 +115,137 @@
 
   <!-- start skills -->
   <h1 class="myheading">Skills</h1>
-  <div class="skills">
-    <div class="skill">
+  <div class="container">
+    <div class="skills">
 
-      <div class="progress">
-        <h2>HTML</h2>
-        <h3>85%</h3>
-        <div class="progress-bar"></div>
-      </div>
-    </div>
-    <div class="skill">
+      <div class="skill">
 
-      <div class="progress">
-        <h2>CSS</h2>
-        <h3>85%</h3>
-        <div class="progress-bar"></div>
+        <div class="progress">
+          <h2>HTML</h2>
+          <h3>85%</h3>
+          <div class="progress-bar"></div>
+        </div>
       </div>
-    </div>
-    <div class="skill">
+      <div class="skill">
 
-      <div class="progress">
-        <h2>JavaScript</h2>
-        <h3>85%</h3>
-        <div class="progress-bar"></div>
+        <div class="progress">
+          <h2>CSS</h2>
+          <h3>85%</h3>
+          <div class="progress-bar"></div>
+        </div>
       </div>
-    </div>
+      <div class="skill">
 
-    <div class="skill">
-      <div class="progress">
-        <h2>PHP</h2>
-        <h3>85%</h3>
-        <div class="progress-bar"></div>
+        <div class="progress">
+          <h2>JavaScript</h2>
+          <h3>85%</h3>
+          <div class="progress-bar"></div>
+        </div>
       </div>
-    </div>
-    
-    <div class="skill">
-      <div class="progress">
-        <h2>MySQL</h2>
-        <h3>85%</h3>
-        <div class="progress-bar"></div>
-      </div>
-    </div>
-    <div class="skill">
-      <div class="progress">
-        <h2>LARAVEL</h2>
-        <h3>85%</h3>
-        <div class="progress-bar"></div>
-      </div>
-    </div>
 
-    <div class="skill">
-      <div class="progress">
-        <h2>LIVEWIRE</h2>
-        <h3>85%</h3>
-        <div class="progress-bar"></div>
+      <div class="skill">
+        <div class="progress">
+          <h2>PHP</h2>
+          <h3>85%</h3>
+          <div class="progress-bar"></div>
+        </div>
       </div>
-    </div>
 
-    <div class="skill">
-      <div class="progress">
-        <h2>AJAX</h2>
-        <h3>85%</h3>
-        <div class="progress-bar"></div>
+      <div class="skill">
+        <div class="progress">
+          <h2>MySQL</h2>
+          <h3>85%</h3>
+          <div class="progress-bar"></div>
+        </div>
       </div>
-    </div>
-
-    <div class="skill">
-      <div class="progress">
-        <h2>JSON</h2>
-        <h3>85%</h3>
-        <div class="progress-bar"></div>
+      <div class="skill">
+        <div class="progress">
+          <h2>LARAVEL</h2>
+          <h3>85%</h3>
+          <div class="progress-bar"></div>
+        </div>
       </div>
-    </div>
 
-    <div class="skill">
-      <div class="progress">
-        <h2>SERVER MANAGEMENT</h2>
-        <h3>85%</h3>
-        <div class="progress-bar"></div>
+      <div class="skill">
+        <div class="progress">
+          <h2>LIVEWIRE</h2>
+          <h3>85%</h3>
+          <div class="progress-bar"></div>
+        </div>
       </div>
+
+      <div class="skill">
+        <div class="progress">
+          <h2>AJAX</h2>
+          <h3>85%</h3>
+          <div class="progress-bar"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="progress">
+          <h2>JSON</h2>
+          <h3>85%</h3>
+          <div class="progress-bar"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="progress">
+          <h2>SERVER</h2>
+          <h3>85%</h3>
+          <div class="progress-bar"></div>
+        </div>
+      </div>
+
+
     </div>
-
- 
-
   </div>
   <!-- end skills -->
+  
+  <div class="footer">
+    
+      <div class="footer_about_me">
+        <h1>About</h1>
+       I have the ability to design complete web application and websites , write clean, well-designed code , Contribute in all phases of the
+       development life-cycle and Follow industry best practices .
+      </div>
+      <div class="links_footer">
+        <ul id="linksul_footer">
+        <h1>Links</h1>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#atricles">Contact Me</a></li>
+        </ul>
+      </div>
+      <div class="services_footer">
+      <h1>Services</h1>
+        <span>Web Development</span>
+        <span>Database Design</span>
+        <span>Server Management</span>
+      </div>
+     
+        <div class="contacts_me">
+        <h1>Contact</h1>
+        <i class="fa-solid fa-phone"></i>
+        <i class="fa-solid fa-envelope"></i>
+        <i class="fa-solid fa-location-dot"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        </div>
+
+    </div>
+    <div class="copy_right">
+       Copyright ©<script>document.write(new Date().getFullYear());</script>
+       All rights reserved | Abo-Hozifa
+        </div>
+
+  
 
 
 
