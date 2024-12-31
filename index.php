@@ -35,6 +35,7 @@
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#services">Services</a></li>
+        <li><a href="#services">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#testimonials">Testimonials</a></li>
         <li><a href="#atricles">Contact Me</a></li>
@@ -62,10 +63,10 @@
   <!-- end carasaul -->
 
   <!-- start about -->
-  <h1 class="myheading">About</h1>
+  <h1  id="about" class="myheading">About</h1>
   <div class="container">
 
-    <div class="aboutme">
+    <div  class="aboutme">
       <div class="info">
         <div class="info_section">
           <span class="info_head">Name :</span><span class="info_data">Mohamed Gamal</span>
@@ -91,9 +92,10 @@
   </div>
   <!-- end about -->
   <!-- start services -->
-  <h1 class="myheading">Services</h1>
+   
+  <h1 id="services" class="myheading">Services</h1>
   <div class="container">
-    <div class="services">
+    <div  class="services">
       <div class="service">
         <div class="service_icon"><i class="fas fa-code"></i></div>
         <h2>Web Development</h2>
@@ -114,9 +116,9 @@
   <!-- end services -->
 
   <!-- start skills -->
-  <h1 class="myheading">Skills</h1>
+  <h1  id="skills" class="myheading">Skills</h1>
   <div class="container">
-    <div class="skills">
+    <div  class="skills">
 
       <div class="skill">
 
@@ -216,6 +218,7 @@
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
+          <li><a href="#services">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#testimonials">Testimonials</a></li>
           <li><a href="#atricles">Contact Me</a></li>
@@ -230,13 +233,15 @@
      
         <div class="contacts_me">
         <h1>Contact</h1>
-        <i class="fa-solid fa-phone"></i>
-        <i class="fa-solid fa-envelope"></i>
-        <i class="fa-solid fa-location-dot"></i>
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-whatsapp"></i>
-        <i class="fa-brands fa-github"></i>
-        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-solid fa-phone"></i><span> ( +2 ) 01090453033</span></br>
+        <i class="fa-solid fa-envelope"></i><pan> mohamedgamal787@gmail.com</span></br>
+        <i class="fa-solid fa-location-dot"></i><pan> Beni-Suef Egypt</span></br>
+        <div class="social">
+        <a href="https://www.facebook.com/profile.php?id=100022184404306" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://wa.link/7f3bwo" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://github.com/mohamed913" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/mohamed-gamal-67aa621a1/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
         </div>
 
     </div>
