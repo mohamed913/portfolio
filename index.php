@@ -204,6 +204,16 @@
     </div>
   </div>
   <!-- end skills -->
+
+  <!-- start projects -->
+   
+  <h1 id="projects" class="myheading">Projects</h1>
+  <div class="container">
+   <div class="projects">
+    
+   </div>
+  </div>
+  <!-- end projects -->
   
   <div class="footer">
     
