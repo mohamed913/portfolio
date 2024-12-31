@@ -35,10 +35,10 @@
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#services">Services</a></li>
-        <li><a href="#services">Skills</a></li>
+        <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#testimonials">Testimonials</a></li>
-        <li><a href="#atricles">Contact Me</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -81,7 +81,7 @@
           <span class="info_head">Position :</span><span class="info_data">Backend Web Developer</span>
         </div>
         <div class="info_section">
-          <span class="info_head">Address :</span><span class="info_data">Bani-Suef, Egypt</span>
+          <span class="info_head">Address :</span><span class="info_data">Beni-Suef, Egypt</span>
         </div>
 
       </div>
@@ -210,7 +210,7 @@
   <h1 id="projects" class="myheading">Projects</h1>
   <div class="container">
    <div class="projects">
-    
+
    </div>
   </div>
   <!-- end projects -->
@@ -228,10 +228,10 @@
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
-          <li><a href="#services">Skills</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#testimonials">Testimonials</a></li>
-          <li><a href="#atricles">Contact Me</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
       <div class="services_footer">
