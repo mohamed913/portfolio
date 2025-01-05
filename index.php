@@ -48,7 +48,7 @@
   <div>
     <div class="carasaul">
       <div class="myimg_container">
-        <img class="myimg" src="assets/imgs/mohamed_profile.jpg" alt="this is the picture of abo hozifa"
+        <img class="myimg" src="assets/imgs/mohamed4.jpg" alt="this is the picture of abo hozifa"
           title="this is the picture of abo hozifa" />
       </div>
       <div class="about">

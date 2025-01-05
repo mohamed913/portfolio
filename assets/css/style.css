@@ -121,7 +121,7 @@ nav {
   padding: 15px;
   color: var(--main-text-color);
   border-radius: 3px;
-  font-size: var(--small-font-size);
+  font-size: var(--medium-font-size);
   /* font-weight: bold; */
   /* font-family: "Veronika Burian", "José Scaglione"; */
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -135,16 +135,16 @@ nav {
 .brand {
   font-weight: bold;
   cursor: pointer;
-  font-size: 20px;
+  font-size: var(--large-font-size);
 }
 
 @media (max-width: 768px) {
   .brand {
 
-    font-size: 18px;
+    font-size: var(--medium-font-size);
   }
   #menubar{
-    font-size: 18px;
+    font-size: var(--medium-font-size);
   }
 
 }
@@ -342,7 +342,7 @@ nav {
     /* color: var(--main-color-alt); */
     border-radius: 10px;
     /* background:url("../imgs/mohamed_profile.jpg"), center center no-repeat; */
-    background-image: url('../imgs/mohamed_profile.jpg');
+    background-image: url('../imgs/mohamed4.jpg');
     background-size: cover;
     /* Scale the image to cover the entire background */
     background-position: center;
@@ -380,7 +380,7 @@ nav {
     width: 100%;
     margin-top: -25px;
     
-    color: var(--text-color-green);
+    color: var(--main-color-alt);
   }
 
 }
@@ -416,7 +416,7 @@ nav {
   padding-right: 20px;
   font-weight: bold;
   color: var(--main-color-alt);
-  font-size: 16px;
+  font-size: var(--medium-font-size);
   
 
 }
@@ -428,7 +428,7 @@ nav {
   text-justify: auto;
   
   color: var(--text-color-green);
-  font-size: 16px;
+  font-size: var(--medium-font-size);
 
 }
 
@@ -487,12 +487,12 @@ nav {
 
   .info_head {
     
-    font-size: 14px;
+    font-size: var(--medium-font-size);
   }
  
 
   .info_data {
-    font-size: 14px;
+    font-size: var(--medium-font-size);
 
 
   }
@@ -671,7 +671,7 @@ line-height: 1.5;
 }
 .footer .contacts_me i{
   color: var(--text-color-green);
-  font-size: 18px;
+  font-size: var(--medium-font-size);
   margin: 10px;
   /* cursor: pointer; */
 }
@@ -751,7 +751,7 @@ line-height: 1.5;
  .copy_right{
   background-color: #000000;
   color: var(--primary-color);
-  font-size: 20px;
+  font-size: var(--large-font-size);
   text-align: center;
   align-items: center;
   padding-bottom: 10px;
@@ -761,7 +761,7 @@ line-height: 1.5;
 @media (max-width: 992px) {
   .copy_right{
 
-    font-size: 16px;
+    font-size: var(--small-font-size);
   }
 
 }
