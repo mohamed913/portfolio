@@ -487,12 +487,12 @@ nav {
 
   .info_head {
     
-    font-size: var(--medium-font-size);
+    font-size: var(--small-font-size);
   }
  
 
   .info_data {
-    font-size: var(--medium-font-size);
+    font-size: var(--small-font-size);
 
 
   }
