@@ -53,8 +53,8 @@
       </div>
       <div class="about">
         <h3>Hi</h3>
-        <h1>I'm <span style="color:#14a800 ;">Abo-Hozifa</span></h1>
-        <h1>I'm A Backend Web Developer</h1>
+        <h1>I'm <span>Abo-Hozifa</span></h1>
+        <h2>I'm A Backend Web Developer</h2></br>
         <button aria-label="press to see my work" class="btndownload_cv">My Work</button>
         <button aria-label="press to contact me" class="btncontact_me">Contact</button>
       </div>
@@ -68,22 +68,20 @@
 
     <div  class="aboutme">
       <div class="info">
-        <div class="info_section">
-          <span class="info_head">Name :</span><span class="info_data">Mohamed Gamal</span>
+        <div class="info_head">
+        <span>Name :</span>
+        <span>email :</span>
+        <span>Phone :</span>
+        <span>Position :</span>
+        <span>Address :</span>
         </div>
-        <div class="info_section">
-          <span class="info_head">email :</span><span class="info_data">mohamedgamal7872@gmail.com</span>
-        </div>
-        <div class="info_section">
-          <span class="info_head">Phone :</span><span class="info_data">(+2) 01090453033</span>
-        </div>
-        <div class="info_section">
-          <span class="info_head">Position :</span><span class="info_data">Backend Web Developer</span>
-        </div>
-        <div class="info_section">
-          <span class="info_head">Address :</span><span class="info_data">Beni-Suef, Egypt</span>
-        </div>
-
+     <div class="info_data">
+        <span>Mohamed Gamal</span>
+        <span>mohamedgamal7872@gmail.com</span>
+        <span>(+2) 01090453033</span>
+        <span>Backend Web Developer</span>
+        <span>Beni-Suef, Egypt</span>
+       </div>
       </div>
       <div class="mylogo"><img class="image_logo" src="assets/imgs/portfolio.png" alt="this is a logo picture"></div>
 

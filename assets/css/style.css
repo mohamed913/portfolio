@@ -7,20 +7,34 @@
 
 :root {
   /* --main-color: #108a00; */
+
   --main-color: #ffffff;
-  --main-text-color: #2d2f31;
-  --secondry-color: #f2f4f7;
+  --main-text-color: #1f2937;
+  --secondry-color: #06b6d4,;
   --primary-color: #dae3e7;
-  --text-color-green: #14a800;
+  --text-color-green: rgba(20, 168, 0, 6.5);
   --text-color-light: rgba(0, 0, 0, 0.1);
-
-
-  /* --main-color-alt: #1787e0; */
   --main-color-alt: #0866ff;
+
   --main-transition: 0.3s;
+
   --main-padding-top: 100px;
   --main-padding-bottom: 100px;
+
+  --main-margin-top: 130px;
+  --main-margin-bottom: 130px;
+
+  --small-main-padding-top: 100px;
+  --small-main-padding-bottom: 100px;
+
+  --small-main-margin-top: 100px;
+  --small-main-margin-bottom: 100px;
+
   --section-background: #ececec;
+  
+  --large-font-size:20px;
+  --medium-font-size:18px;
+  --small-font-size:14px;
 }
 
 html {
@@ -28,8 +42,10 @@ html {
 }
 
 body {
-  font-family: "Veronika Burian", "José Scaglione";
+  font-family: "Neue Montreal", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: var(--primary-color);
+  
+  
 
 }
 
@@ -48,8 +64,8 @@ ul {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 130px;
-  margin-bottom: 130px;
+  margin: var(--main-margin-top) 0px;
+  
 }
 
 
@@ -57,23 +73,23 @@ ul {
 .myheading {
   text-align: center;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 40px;  
   font-weight: bolder;
-  padding: 0px;
+  padding: 15px 10px ;
   border: 1px solid var(--text-color-light);
   width: 260px;
-  margin: 70px auto;
+  margin: 0px auto;
   background-color: var(--main-color);
-  border-radius: 3px;
+  border-radius: 20px;  
 
   
 }
 @media (max-width: 768px) {
 
-  .myheading {
+  /* .myheading {
    margin-top: 200px;
-    margin-bottom: 200px;
-  }
+   margin-bottom: 200px;
+  } */
 }
 @media (max-width: 768px) {
 
@@ -81,18 +97,7 @@ ul {
   .myheading {
     font-size: 40px;
     width: 200px;
-    margin: 70px auto;
-  }
-}
-
-
-
-/* Styles for mobile and smaller */
-
-@media (max-width: 768px) {
-  .container {
-
-    margin-top: 50px;
+    margin: 0px auto;
   }
 }
 
@@ -116,9 +121,9 @@ nav {
   padding: 15px;
   color: var(--main-text-color);
   border-radius: 3px;
-  font-size: 18px;
-  font-weight: bold;
-  font-family: "Veronika Burian", "José Scaglione";
+  font-size: var(--small-font-size);
+  /* font-weight: bold; */
+  /* font-family: "Veronika Burian", "José Scaglione"; */
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 
   /* border-bottom: 1px solid #777; */
@@ -130,16 +135,16 @@ nav {
 .brand {
   font-weight: bold;
   cursor: pointer;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 @media (max-width: 768px) {
   .brand {
 
-    font-size: 22px;
+    font-size: 18px;
   }
   #menubar{
-    font-size: 22px;
+    font-size: 18px;
   }
 
 }
@@ -159,20 +164,21 @@ nav {
 
 
 }
+.links ul li{
+  padding: 25px 8px;
+}
 
 .links ul li a {
   color: var(--main-text-color);
-  padding: 22px;
+  /* padding: 22px; */
   cursor: pointer;
 
 
 }
 
-.links ul li a:hover {
-  /* background-color: var(--main-text-color);
-  color: var(--main-color);
-  border-radius: 5px;
-  font-size: 21px; */
+
+.links ul li:hover {
+ 
   border-bottom: 2px solid var(--text-color-green);
 
 }
@@ -236,11 +242,7 @@ nav {
     width: 100%;
   }
 
-  .links ul li a:hover {
-    width: 70%;
-    border-bottom: 2px solid yellow;
-
-  }
+  
 }
 
 
@@ -251,7 +253,7 @@ nav {
   display: flex;
   flex-direction: row;
   height: 550px;
-  margin-top: 70px;
+  margin: 70px 0px 130px 0px;
 
 }
 
@@ -274,7 +276,7 @@ nav {
   align-items: center;
   padding: 100px 0 0 20px;
   width: 100%;
-  color: var(--main-color-alt);
+  /* color: var(--main-color-alt); */
   background-color: var(--main-color);
   height: 80%;
   margin: auto 0;
@@ -337,8 +339,7 @@ nav {
     padding-top: 50px;
     width: 100%;
     height: 100%;
-    color: var(--main-color-alt);
-
+    /* color: var(--main-color-alt); */
     border-radius: 10px;
     /* background:url("../imgs/mohamed_profile.jpg"), center center no-repeat; */
     background-image: url('../imgs/mohamed_profile.jpg');
@@ -350,11 +351,7 @@ nav {
     /* Prevent the image from repeating */
   }
 
-  h1,
-  h2,
-  h3 {
-    color: var(--main-text-color);
-  }
+  
 
 }
 
@@ -382,12 +379,8 @@ nav {
     padding-top: 50px;
     width: 100%;
     margin-top: -25px;
-  }
-
-  h1,
-  h2,
-  h3 {
-    color: var(--main-text-color);
+    
+    color: var(--text-color-green);
   }
 
 }
@@ -398,61 +391,62 @@ nav {
   display: flex;
   text-align: left;
   align-items: center;
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .info {
   display: flex;
-  flex-direction: column;
-
-  width: 60%;
-  text-align: center;
-  padding-left: 30px;
-  justify-content: center;
+  line-height: 2;
+  width: 100%;
+  
   background-color: var(--main-color);
-  padding: 30px;
+  padding: 30px 20px 30px 70px;
   border-radius: 10px;
+  
 }
 
 /* .myinfo{
   display: inline;
 } */
-.info_section {
-  padding-bottom: 20px;
-
-
-  text-align: justify;
-
-}
-
 .info_head {
+  display: flex;
+  flex-direction: column;
   padding-right: 20px;
   font-weight: bold;
   color: var(--main-color-alt);
-  font-size: 20px;
-
+  font-size: 16px;
+  
 
 }
 
 .info_data {
+  display: flex;
+  flex-direction: column;
   text-align: left;
   text-justify: auto;
-  font-weight: bold;
+  
   color: var(--text-color-green);
-  font-size: 20px;
+  font-size: 16px;
 
 }
 
 .mylogo {
 
   width: 40%;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 100px;
+  /* border-radius: 50%; */
 
 }
 
 .image_logo {
   height: 100%;
   width: 90%;
-
-  border-radius: 40px;
+  border-radius: 50%;
   margin-left: 10px;
 }
 
@@ -465,15 +459,14 @@ nav {
   }
 
   .aboutme {
-    text-align: center;
-    align-items: center;
+    
     width: 100%;
   }
 
   .info {
     width: 70%;
     margin: 0 auto;
-    overflow-x: scroll;
+    
   }
 
   /* .info_section{
@@ -488,16 +481,20 @@ nav {
   .info {
     width: 100%;
     margin: 0 auto;
-    overflow-x: scroll;
+    padding: 20px;
+   
   }
 
   .info_head {
-    font-size: 16px;
-
+    
+    font-size: 14px;
   }
+ 
 
   .info_data {
-    font-size: 16px;
+    font-size: 14px;
+
+
   }
 }
 
