@@ -21,248 +21,78 @@
 </head>
 
 <body>
-  <!-- start nav bar -->
-
-  <nav>
-    <div class="brand">Abo-Hozifa</div>
-    <!-- <div class="brand"><img class="image_brand" src="imgs/portfolio.webp" alt=""></div> -->
-
-
-    <i id="menubar" class="fa-solid fa-bars"></i>
-
-    <div id="links" class="links">
-      <ul id="linksul">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+  <class="container">
+    <?php
+    include 'views/modal.html';
+    ?>
     </div>
-  </nav>
+    <!-- start nav bar -->
+    <?php
+    include 'views/navbar.html';
+    ?>
 
-  <!-- end nav bar -->
-  <!-- start carasaul -->
-  <div>
-    <div class="carasaul">
-      <div class="myimg_container">
-        <img class="myimg" src="assets/imgs/mohamed4.jpg" alt="this is the picture of abo hozifa"
-          title="this is the picture of abo hozifa" />
-      </div>
-      <div class="about">
-        <h3>Hi</h3>
-        <h1>I'm <span>Abo-Hozifa</span></h1>
-        <h2>I'm A Backend Web Developer</h2></br>
-        <button aria-label="press to see my work" class="btndownload_cv">My Work</button>
-        <button aria-label="press to contact me" class="btncontact_me">Contact</button>
-      </div>
-    </div>
-  </div>
-  <!-- end carasaul -->
 
-  <!-- start about -->
-  <h1  id="about" class="myheading">About</h1>
-  <div class="container">
-
-    <div  class="aboutme">
-      <div class="info">
-        <div class="info_head">
-        <span>Name :</span>
-        <span>email :</span>
-        <span>Phone :</span>
-        <span>Position :</span>
-        <span>Address :</span>
-        </div>
-     <div class="info_data">
-        <span>Mohamed Gamal</span>
-        <span>mohamedgamal7872@gmail.com</span>
-        <span>(+2) 01090453033</span>
-        <span>Backend Web Developer</span>
-        <span>Beni-Suef, Egypt</span>
-       </div>
-      </div>
-      <div class="mylogo"><img class="image_logo" src="assets/imgs/portfolio.png" alt="this is a logo picture"></div>
-
+    <!-- end nav bar -->
+    <!-- start carasaul -->
+    <div>
+      <?php
+      include 'views/carasaul.html';
+      ?>
 
     </div>
-  </div>
-  <!-- end about -->
-  <!-- start services -->
-   
-  <h1 id="services" class="myheading">Services</h1>
-  <div class="container">
-    <div  class="services">
-      <div class="service">
-        <div class="service_icon"><i class="fas fa-code"></i></div>
-        <h2>Web Development</h2>
-        <p>Developing websites using the latest technologies and frameworks</p>
-      </div>
-      <div class="service">
-        <div class="service_icon"><i class="fas fa-database"></i></div>
-        <h2>Database Design</h2>
-        <p>Designing databases using the latest technologies and frameworks</p>
-      </div>
-      <div class="service">
-        <div class="service_icon"><i class="fas fa-server"></i></div>
-        <h2>Server Management</h2>
-        <p>Managing servers and deploying websites</p>
-      </div>
-    </div>
-  </div>
-  <!-- end services -->
+    <!-- end carasaul -->
 
-  <!-- start skills -->
-  <h1  id="skills" class="myheading">Skills</h1>
-  <div class="container">
-    <div  class="skills">
-
-      <div class="skill">
-
-        <div class="progress">
-          <h2>HTML</h2>
-          <h3>85%</h3>
-          <div class="progress-bar"></div>
-        </div>
-      </div>
-      <div class="skill">
-
-        <div class="progress">
-          <h2>CSS</h2>
-          <h3>85%</h3>
-          <div class="progress-bar"></div>
-        </div>
-      </div>
-      <div class="skill">
-
-        <div class="progress">
-          <h2>JavaScript</h2>
-          <h3>85%</h3>
-          <div class="progress-bar"></div>
-        </div>
-      </div>
-
-      <div class="skill">
-        <div class="progress">
-          <h2>PHP</h2>
-          <h3>85%</h3>
-          <div class="progress-bar"></div>
-        </div>
-      </div>
-
-      <div class="skill">
-        <div class="progress">
-          <h2>MySQL</h2>
-          <h3>85%</h3>
-          <div class="progress-bar"></div>
-        </div>
-      </div>
-      <div class="skill">
-        <div class="progress">
-          <h2>LARAVEL</h2>
-          <h3>85%</h3>
-          <div class="progress-bar"></div>
-        </div>
-      </div>
-
-      <div class="skill">
-        <div class="progress">
-          <h2>LIVEWIRE</h2>
-          <h3>85%</h3>
-          <div class="progress-bar"></div>
-        </div>
-      </div>
-
-      <div class="skill">
-        <div class="progress">
-          <h2>AJAX</h2>
-          <h3>85%</h3>
-          <div class="progress-bar"></div>
-        </div>
-      </div>
-
-      <div class="skill">
-        <div class="progress">
-          <h2>JSON</h2>
-          <h3>85%</h3>
-          <div class="progress-bar"></div>
-        </div>
-      </div>
-
-      <div class="skill">
-        <div class="progress">
-          <h2>SERVER</h2>
-          <h3>85%</h3>
-          <div class="progress-bar"></div>
-        </div>
-      </div>
-
+    <!-- start about -->
+    <h1 id="about" class="myheading">About</h1>
+    <div class="container">
+      <?php
+      include 'views/about.html';
+      ?>
 
     </div>
-  </div>
-  <!-- end skills -->
+    <!-- end about -->
+    <!-- start services -->
 
-  <!-- start projects -->
-   
-  <h1 id="projects" class="myheading">Projects</h1>
-  <div class="container">
-   <div class="projects">
-
-   </div>
-  </div>
-  <!-- end projects -->
-  
-  <div class="footer">
-    
-      <div class="footer_about_me">
-        <h1>About</h1>
-       I have the ability to design complete web application and websites , write clean, well-designed code , Contribute in all phases of the
-       development life-cycle and Follow industry best practices .
-      </div>
-      <div class="links_footer">
-        <ul id="linksul_footer">
-        <h1>Links</h1>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-      <div class="services_footer">
-      <h1>Services</h1>
-        <span>Web Development</span>
-        <span>Database Design</span>
-        <span>Server Management</span>
-      </div>
-     
-        <div class="contacts_me">
-        <h1>Contact</h1>
-        <i class="fa-solid fa-phone"></i><span> ( +2 ) 01090453033</span></br>
-        <i class="fa-solid fa-envelope"></i><pan> mohamedgamal787@gmail.com</span></br>
-        <i class="fa-solid fa-location-dot"></i><pan> Beni-Suef Egypt</span></br>
-        <div class="social">
-        <a href="https://www.facebook.com/profile.php?id=100022184404306" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-        <a href="https://wa.link/7f3bwo" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-        <a href="https://github.com/mohamed913" target="_blank"><i class="fa-brands fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/mohamed-gamal-67aa621a1/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-        </div>
-        </div>
+    <h1 id="services" class="myheading">Services</h1>
+    <div class="container">
+      <?php
+      include 'views/services.html';
+      ?>
 
     </div>
-    <div class="copy_right">
-       Copyright ©<script>document.write(new Date().getFullYear());</script>
-       All rights reserved | Abo-Hozifa
-        </div>
+    <!-- end services -->
 
-  
+    <!-- start skills -->
+    <h1 id="skills" class="myheading">Skills</h1>
+    <div class="container">
+
+      <?php
+      include 'views/skills.html';
+      ?>
+
+    </div>
+    <!-- end skills -->
+
+    <!-- start projects -->
+
+    <h1 id="projects" class="myheading">Projects</h1>
+    <div class="container">
+      <?php
+      include 'views/projects.html';
+      ?>
+
+    </div>
+    <!-- end projects -->
+    <!-- start footer -->
+    <?php
+    include 'views/footer.html';
+    ?>
+
+    <!-- end footer -->
 
 
 
-  <script src="assets/js/script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
